@@ -20,7 +20,8 @@ class BlogIndex extends React.Component {
           const title = node.frontmatter.title || node.fields.slug
           return (
             <article key={node.fields.slug}>
-              <header style="background: green;">
+              <header>
+                <p>Bamboozled!</p>
                 <h3
                   style={{
                     marginBottom: rhythm(1 / 4),
